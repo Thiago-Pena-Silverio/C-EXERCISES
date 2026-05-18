@@ -1,5 +1,5 @@
 # C-EXERCISES
-C programming exercises covering pointers, arrays, recursion and iteration — university assignments
+C programming exercises covering pointers, arrays, recursion, iteration and functions — university assignments
 
 ---
 
@@ -9,7 +9,7 @@ C programming exercises covering pointers, arrays, recursion and iteration — u
 
 🎓 **Context:**
 
-A collection of C programming exercises developed during the Programming Fundamentals module. Topics covered include memory addresses, pointers, array searching, and recursive vs iterative approaches.
+A collection of C programming exercises developed during the Programming Fundamentals module. Topics covered include memory addresses, pointers, array searching, recursive vs iterative approaches, and functions with and without parameters.
 
 📄 **Files:**
 
@@ -21,9 +21,17 @@ A collection of C programming exercises developed during the Programming Fundame
 
 **factorial-recursive.c:** Recursive function `fat()` that calculates the factorial of a given integer N using the base case `fat(0) = 1`
 
-**sum-recursive.c:** Recursive function `soma()` that calculates the sum of all integers from 0 to N
+**sum-recursive.c:** Recursive function `soma()` that calculates the sum of all integers from 0 to N using recursion
 
 **sum-iterative.c:** Iterative version of the sum function using a `for` loop — computes the same result as `sum-recursive.c` for comparison
+
+**circumference-pi-function.c:** Function `pi()` that returns 3.14 and is used to calculate the circumference with a fixed radius of 1.0
+
+**circumference-with-param.c:** Function `circunferencia(raio)` that receives the radius as a parameter and returns the calculated circumference — demonstrates functions with float parameters and return values
+
+**print-numbers-fixed.c:** Void function `num()` with no parameters that uses a `for` loop to print numbers up to 100
+
+**print-numbers-range.c:** Void function `num(a, b)` that receives start and end values from the user via `scanf` and prints all integers in that range
 
 🛠️ **Tech Stack:**
 
@@ -42,6 +50,10 @@ A collection of C programming exercises developed during the Programming Fundame
 - Factorial via recursion 🔢
 
 - Sum via recursion and via iteration ↔️
+
+- Circumference calculation with fixed and parameterized functions ○
+
+- Number printing with fixed range and user-defined range 📊
 
 ---
 
