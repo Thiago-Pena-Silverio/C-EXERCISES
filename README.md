@@ -1,11 +1,12 @@
 # C-EXERCISES
-C programming exercises covering pointers, arrays, recursion, iteration and functions — university assignments
+
+C programming exercises covering pointers, arrays, recursion, iteration and functions - university assignments
+
+> ⚠️ **Note:** This project was developed for academic purposes and some output messages are written in **Portuguese**.
 
 ---
 
 **Name of the repository:** C Exercises
-
-> ⚠️ **Note:** This project was developed for academic purposes and some output messages are written in **Portuguese**.
 
 🎓 **Context:**
 
