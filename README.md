@@ -16,7 +16,7 @@ A collection of C programming exercises developed during the Programming Fundame
 
 **print-variables-addresses.c:** Prints the value and memory address of `int` and `char` variables using `printf` and the address-of operator (`&`)
 
-**pointer-basics.c:** Declares a pointer `*p`, assigns it to a variable `num`, and manipulates the value through the pointer — demonstrates pointer assignment and dereferencing
+**pointer-basics.c:** Declares a pointer `*p`, assigns it to a variable `num`, and manipulates the value through the pointer, demonstrates pointer assignment and dereferencing
 
 **array-search.c:** Function `encontra()` that searches for a value in an integer array using pointer arithmetic and returns the index, or `-1` if not found
 
@@ -24,11 +24,11 @@ A collection of C programming exercises developed during the Programming Fundame
 
 **sum-recursive.c:** Recursive function `soma()` that calculates the sum of all integers from 0 to N using recursion
 
-**sum-iterative.c:** Iterative version of the sum function using a `for` loop — computes the same result as `sum-recursive.c` for comparison
+**sum-iterative.c:** Iterative version of the sum function using a `for` loop, computes the same result as `sum-recursive.c` for comparison
 
 **circumference-pi-function.c:** Function `pi()` that returns 3.14 and is used to calculate the circumference with a fixed radius of 1.0
 
-**circumference-with-param.c:** Function `circunferencia(raio)` that receives the radius as a parameter and returns the calculated circumference — demonstrates functions with float parameters and return values
+**circumference-with-param.c:** Function `circunferencia(raio)` that receives the radius as a parameter and returns the calculated circumference, demonstrates functions with float parameters and return values
 
 **print-numbers-fixed.c:** Void function `num()` with no parameters that uses a `for` loop to print numbers up to 100
 
