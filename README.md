@@ -18,7 +18,7 @@ A collection of C programming exercises developed during the Programming Fundame
 
 **pointer-basics.c:** Declares a pointer `*p`, assigns it to a variable `num`, and manipulates the value through the pointer, demonstrates pointer assignment and dereferencing
 
-**array-search.c:** Function `encontra()` that searches for a value in an integer array using pointer arithmetic and returns the index, or `-1` if not found
+**array-search.c:** Function `encontra()` that searches for a value in an integer array using pointer arithmetic and returns its index, or `-1` if not found
 
 **factorial-recursive.c:** Recursive function `fat()` that calculates the factorial of a given integer N using the base case `fat(0) = 1`
 
