@@ -8,14 +8,13 @@ int main(void){
     char t = 'V';
 
     printf("Valor de num: %d \n", num);
-    printf("Endereço de num: %d \n\n", &num);
+    printf("EndereÃ§o de num: %p \n\n", (void *)&num);
     
-    printf("Valor de c: %d \n", c);
-    printf("Endereço de c: %d \n\n", &c);
+    printf("Valor de c: %c \n", c);
+    printf("EndereÃ§o de c: %p \n\n", (void *)&c);
     
-    printf("Valor de t: %d \n", t);
-    printf("Endereço de t: %d \n\n", &t);
-    
-    system("pause");
+    printf("Valor de t: %c \n", t);
+    printf("EndereÃ§o de t: %p \n\n", (void *)&t);
+
     return(0);
 }

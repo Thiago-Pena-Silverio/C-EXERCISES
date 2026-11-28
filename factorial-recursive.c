@@ -12,19 +12,15 @@ int fat (int n)
     }
 }
 
-int main(){
+int main(void){
     setlocale(LC_ALL, "Portuguese");
     
     int a;
     
     printf("Digite um  numero para fatorar: ");
-    scanf("%d", &a);
+    if (scanf("%d", &a) != 1 || a < 0 || a > 12) return 1;
     
     int num = fat(a);
-        printf("O fatorial é: %d\n", num);
-        
-system("pause");
-}    
-    
-    
-    
+        printf("O fatorial Ã©: %d\n", num);
+
+}

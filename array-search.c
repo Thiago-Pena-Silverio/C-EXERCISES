@@ -22,7 +22,6 @@ int encontra(int *vet, int tam, int valor){
          indice = encontra (v, 7, 32);
          
          printf("Encontrando na pos: %d \n", indice);
-             
-    system("pause");
-    return;
+
+    return 0;
 }

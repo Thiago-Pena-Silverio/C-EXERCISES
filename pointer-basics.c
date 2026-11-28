@@ -12,9 +12,8 @@ int main(void){
     
        printf("Valor de num: %d \n", num);
        printf("Valor de *p: %d \n", *p);
-       printf("Valor de num: %d \n", &num);
-       printf("Valor de p: %d \n", p);
-    
-    system("pause");
+       printf("Valor de num: %p \n", (void *)&num);
+       printf("Valor de p: %p \n", (void *)p);
+
 
 }

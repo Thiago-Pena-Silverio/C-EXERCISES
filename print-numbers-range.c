@@ -11,14 +11,14 @@
         }
     }    
         
-    int main(){
+    int main(void){
 
          int x, y;
          printf("Digite o inicio:");
-         scanf("%d", &x);
+         if (scanf("%d", &x) != 1) return 1;
           printf("Digite o fim:");
-         scanf("%d", &y);
+         if (scanf("%d", &y) != 1) return 1;
          
          num(x, y);
-         system ("pause");
+
     }

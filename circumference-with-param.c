@@ -7,12 +7,10 @@
         
         return 2 * 3.14 * raio;
     }
-    main(){
+    int main(void){
          float circ;
          circ = circunferencia(1.0);
          printf("A circunferencia vale: %.2f \n", circ);
-    
-    system("pause");
+
     return 0;
     }
-    

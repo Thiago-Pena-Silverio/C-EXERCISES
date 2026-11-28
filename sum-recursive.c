@@ -10,17 +10,13 @@ int soma(int num)
         return num + soma(num-1);
 }
 
-int main(){
+int main(void){
     setlocale(LC_ALL, "Portuguese");
     
     int num;
     printf("Digite um inteiro positivo: ");
-    scanf("%d", &num);
+    if (scanf("%d", &num) != 1 || num < 0) return 1;
  
     printf("Soma: %d\n", soma(num));
-        
-system("pause");
-}    
-    
-    
-    
+
+}
